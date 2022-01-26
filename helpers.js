@@ -119,3 +119,4 @@ function bsDecode(string) {
   }
   return String.fromCharCode(...final);
 }
+export { bsDecode, bsEncode };
